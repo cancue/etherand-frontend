@@ -1,16 +1,16 @@
 <template>
-  <div class="home">
+  <div>
     <h1>Etherand</h1>
-    <Game />
+    <Functions />
   </div>
 </template>
 
 <script>
-import Game from "@/components/Game.vue"
+import Functions from "@/components/Functions.vue"
 
 export default {
   components: {
-    Game
+    Functions
   }
 }
 </script>

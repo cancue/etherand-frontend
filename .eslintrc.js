@@ -31,5 +31,8 @@ module.exports = {
   },
   parserOptions: {
     parser: "babel-eslint"
+  },
+  globals: {
+    "$": "on"
   }
 }
